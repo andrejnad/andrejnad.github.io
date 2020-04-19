@@ -1,0 +1,69 @@
+.main_menu {
+  width: 20%;
+  margin: 5%;
+}
+
+.heading{
+  padding-left: 5%;
+  padding-top: 30px;
+}
+
+.intro{
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#improvised_navbar{
+  margin-left: 5%;
+}
+
+.info_table{
+  margin-top: 5%;
+}
+
+.label{
+  text-align: right;
+  padding: 10px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.data{
+  padding: 10px;
+  background-color: white;
+  min-width: 300px;
+}
+
+.item_table{
+  margin-bottom: 50px;
+}
+
+.flex {
+         display: flex;
+         flex-wrap: wrap;
+     }
+
+
+ .flex > table {
+         margin: 20px;
+         padding: 20px;
+     }
+
+@media (max-width: 1000px) {
+               .intro {
+                   line-height: 3;
+               }
+           }
+
+@media (max-width: 1000px) {
+               .main_heading::before {
+                   content: "Model Collection";
+               }
+           }
+
+           @media (min-width: 1001px) {
+               .main_heading::before {
+                   content: "My Model Cars Collections";
+               }
+           }
